@@ -1,0 +1,61 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(200, 200, 200);
+}
+.second-container {
+	display: flex;
+	justify-content: center;
+	width: 82%;
+	justify-content: space-evenly;
+}
+.image-container {
+	height: 8vh;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	max-height: 100%;
+	max-width: 100%;
+}
+.input {
+	font-size: 5vh;
+	height: 7vh;
+	width: 70vw;
+}
+.data-list {
+	background-color: rgba(255, 255, 255, 0.7);
+	list-style-type: none;
+	height: 70vh;
+	overflow-x: hidden;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 70.5vw;
+}
+
+li {
+	font-size: 3vh;
+	border-bottom: 1px dotted black;
+	margin: 0.4vh;
+	width: 100%;
+	padding: 1vh 5vw;
+}
+li:hover {
+	cursor: pointer;
+	background-color: lightblue;
+}
+.active {
+	background-color: lightblue;
+}
+
+.holder {
+	height: 70vh;
+}
+
+.location {
+	font-size: 1.4vh;
+	color: grey;
+}
